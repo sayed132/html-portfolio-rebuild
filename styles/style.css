@@ -154,3 +154,27 @@ nav li {
     text-align: center;
     color: #474747;
 }
+
+/* what i do style */
+.what-i-do {
+    margin-top: 130px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.what-i-do-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+}
+
+.what-i-do-desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
