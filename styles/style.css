@@ -19,6 +19,10 @@
     border-radius: 5px;
 }
 
+section {
+    margin-top: 130px;
+}
+
 .header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
@@ -109,7 +113,6 @@ nav li {
 }
 
 .about {
-    margin-top: 130px;
     text-align: center;
     background: #FFF8F3;
     border-radius: 10px;
@@ -157,8 +160,6 @@ nav li {
 
 /* what i do style */
 .what-i-do {
-    margin-top: 130px;
-    padding: 130px 150px;
     text-align: center;
 }
 
@@ -176,5 +177,97 @@ nav li {
     font-size: 18px;
     line-height: 30px;
     text-align: center;
+    padding: 0px 100px;
     color: #757575;
+}
+
+.skills-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill img {
+    display: flex;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    text-align: justify;
+}
+
+/* summary styles */
+.summary {}
+
+.summary-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 113px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+
+.edu-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+}
+.item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.item-sub {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.item-desc{
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #757575;
+}
+
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
