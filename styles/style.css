@@ -240,7 +240,8 @@ nav li {
     line-height: 41px;
     color: #474747;
 }
-.item{
+
+.item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -260,14 +261,70 @@ nav li {
     color: #757575;
     margin-bottom: 20px;
 }
-.item-desc{
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color: #757575;
+
+.item-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
 
-.resume-btn{
+.resume-btn {
     margin-top: 50px;
     text-align: center;
+}
+
+/* contact styles */
+.contact-section {
+    background: #FFF8F3;
+}
+
+.contact .contact-title {
+    text-align: left;
+}
+
+.contact {
+    display: flex;
+    gap: 100px !important;
+    padding: 130px 200px !important;
+}
+
+.contact input[type="text"],input[type="email"], textarea {
+    margin-bottom: 24px;
+    border: 0;
+    border-radius: 3px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 34px;
+}
+form{
+    margin-top: 28px;
+}
+.contact-desc {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+.contact a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+contact-btn{
+   
+}
+footer{
+    background-color: #181818;
+    color: #757575;
+    text-align: center;
+    padding: 100px 130px;
+}
+.hr{
+    margin-top: 10px;
+    color: #757575;
 }
