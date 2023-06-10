@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    border: 0;
+    padding: 18px 36px;
+    color: #FFFFFF;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.heading-logo-name {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+    color: #181818;
+}
+
+.heading-under-word {
+    color: orangered !important;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding-top: 30px;
+}
+
+.navbar-ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
+}
+
+.nav-btn {
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+/* banner style */
+
+.banner {
+    margin: 0px 100px;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.banner-subtitle {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* about section style */
+.main {
+    max-width: 1140px !important;
+    margin: 0 auto;
+}
+
+.about {
+    margin-top: 130px;
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.about-desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
+
+.about-address {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.about-name {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
+}
